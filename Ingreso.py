@@ -7,16 +7,16 @@ import Autenticacion, Procesos
 
 # ----- Formato General ---- #
 
-img=Image.open('logoicon.png')
+img=Image.open('logoicon.jpg')
 
-st.set_page_config(page_title="Formularios TPZ",page_icon=img,layout="wide")
+st.set_page_config(page_title="Muestra de App",page_icon=img,layout="wide")
 
 hide_menu_style = """
         <style>
         #MainMenu {visibility: hidden;}
         footer {visibility:visible;}
         footer:after{
-            content:'V.1.24 Copyrigth @ 2023 Telespazio Argentina S.A.';
+            content:'V.1.1 Copyrigth @ 2026 Basilio Salazar N';
             display: block;
             position: relative;
             color: tomato;
@@ -148,12 +148,12 @@ if iniciar_sesion_1:
      
 if pivot!=1:
     
-     st.image(Image.open("logo.png"))
+     st.image(Image.open("logo.jpg"))
 
-     st.title("Telespazio Argentina S.A.")
+     st.title("Empresa de Prueba")
 
-     st.header("Aplicación de uso exclusivo para el personal de Telespazio Argentina S.A.")
+     st.header("Aplicación de uso exclusivo para el personal de Empresa de Prueba")
 
      st.subheader("En caso de dudas favor revisar el siguiente video tutorial en el apartado 16. Registros y Bonos de la wiki")
 
-     st.subheader("Para soporte técnico favor escribir a daniela.rivera@telespazio.pe")
+     st.subheader("Para soporte técnico favor escribir a ")
