@@ -132,13 +132,13 @@ def Salir():
         # ----- Mensajes Generales ---- #
                  
         if pivot!=1:
-    
-            st.image(Image.open("logo.png"))
 
-            st.title("Telespazio Argentina S.A.")
+            st.image(Image.open("logo.jpg"))
 
-            st.header("Aplicación de uso exclusivo para el personal de Telespazio Argentina S.A.")
+            st.title("Empresa de Prueba")
+
+            st.header("Aplicación de uso exclusivo para el personal de Empresa de Prueba")
 
             st.subheader("En caso de dudas favor revisar el siguiente video tutorial en el apartado 16. Registros y Bonos de la wiki")
 
-            st.subheader("Para soporte técnico favor escribir a daniela.rivera@telespazio.pe")
+            st.subheader("Para soporte técnico favor escribir a ")
